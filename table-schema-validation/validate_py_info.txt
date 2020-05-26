@@ -1,0 +1,19 @@
+THis python script compare :
+	1.) Schema from MSSQL Server table
+	and
+	2.) Table Schema from CSV file
+
+and the validates these schemas on
+
+	1.) Number of Columns in the Table/CSV
+	2.) Name of the Columns
+	3.) Data Type of the columns
+	4.) Character limit of the columns
+
+Condition :
+	If number of columns in table are difeerent then schema of the two(table/csv) is not matched.
+	If number of columns in table are same then go for validation on name/data_type/char_limit and check if schema is matched or not.
+
+
+Replace Server details , DB and Table name as per yours.
+sample csv is there for mock run.
